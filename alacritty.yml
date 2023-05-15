@@ -61,12 +61,15 @@ theme: Breeze
 
 cursor:
   style: 
-    shape: Beam
+    shape: Block
     blinking: on
     blink-interval: 1000
 
 shell:
   program: /usr/bin/zsh
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
 
 key_bindings:
   - { key:  Return, mods: Super|Shift, action: SpawnNewInstance }
