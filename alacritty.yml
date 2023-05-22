@@ -1,5 +1,6 @@
 
 env:
+  #Default Term
   TERM: Alacritty
 
 window:
