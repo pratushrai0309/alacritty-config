@@ -1,4 +1,8 @@
-window: 
+
+env:
+  TERM: Alacritty
+
+window:
   padding:
     x: 15
     y: 15
@@ -6,7 +10,7 @@ window:
     instance: Alacritty
     general: Alacritty
   opacity: 0.7
-
+  decorations: none
 
 font:
   normal:
@@ -60,7 +64,7 @@ colors:
 theme: Breeze
 
 cursor:
-  style: 
+  style:
     shape: Block
     blinking: on
     blink-interval: 1000
